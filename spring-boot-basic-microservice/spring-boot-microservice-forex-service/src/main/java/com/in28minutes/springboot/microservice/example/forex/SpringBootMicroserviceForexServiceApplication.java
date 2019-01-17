@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient // Need to research
 public class SpringBootMicroserviceForexServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMicroserviceForexServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootMicroserviceForexServiceApplication.class, args);
+    }
 }
